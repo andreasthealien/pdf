@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.pdf-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pdf-list li {
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: 330px 140px;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+.pdf-list a {
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.se-knapp {
+  color: #00a346;
+  text-align: start;
+}
+.last-ned-knapp {
+  color: #007BFF;
+}
+
+.pdf-list a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 570px) {
+  .pdf-list li {
+    grid-template-columns: 200px 80px;
+  }
+}
