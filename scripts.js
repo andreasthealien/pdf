@@ -19,6 +19,10 @@ const pdfFiles = [
     {
         name: "Når bruke hvilken trignonomiske setning",
         file: "Når bruke hvilken trignonomiske setning.pdf"
+    },
+    {
+        name: "Målark for KRLE prøve uke 6",
+        file: "Målark prøve periode 3 eller 4 KRLE.pdf"
     }
 ];
 
