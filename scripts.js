@@ -5,6 +5,10 @@ const pdfFiles = [
         file: "Regnerekkefølgen.pdf"
     },
     {
+        name: "Lære bort likninger, likningssett og lineære funksjoner",
+        file: "Lære bort likninger, likningssett og lineære funksjoner.pdf"
+    },
+    {
         name: "Potens og kvadratrot (ikke ferdig)",
         file: "Potens, kvadratrot og kvadrattall.pdf"
     },
